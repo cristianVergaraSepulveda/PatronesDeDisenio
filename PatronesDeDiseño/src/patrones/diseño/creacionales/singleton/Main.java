@@ -17,12 +17,11 @@ public class Main {
     public static void main(String[] args){
 
         Singleton sin = Singleton.getInstance();
-        sin.log("hola mundo");
+        sin.log("hola mundo ");
         Singleton sin2 = Singleton.getInstance();
 
         sin.setValue("sing1");
-        sin2.setValue("sing2");
-       
+        sin2.setValue("sing2");       
         
         System.out.println(sin.getValue());
     }
